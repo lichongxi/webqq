@@ -1,0 +1,335 @@
+u {
+    text-decoration: none;
+    white-space: nowrap;
+}
+* {
+    font-family: Tahoma,Verdana,Arial,Helvetica,sans-serif;
+    font-size: 12px;
+}
+body {
+    background: none repeat scroll 0 0 #F6F6F6;
+    margin: 0;
+    padding: 0;
+}
+form {
+    margin: 0;
+    padding: 0;
+}
+img {
+    border: 0 none;
+}
+a {
+    text-decoration: none;
+}
+em {
+    font-style: normal;
+}
+.clearer {
+    clear: both;
+    display: block;
+    font-size: 1px;
+    height: 1px;
+    margin: 0;
+    padding: 0;
+}
+.signin {
+    float: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 360px;
+}
+.signin .subcolumn01 .middle {
+    float: left;
+    height: 40px;
+    width: 296px;
+}
+.signin .subcolumn01 .middle span {
+    color: #000000;
+    font-size: 14px;
+    font-weight: bold;
+    line-height: 40px;
+    padding-left: 4em;
+}
+.signin .subcolumn02 {
+    overflow: hidden;
+    padding-bottom: 10px;
+    width: 356px;
+}
+.strong-login .signin .subcolumn02 {
+    padding-top: 20px;
+}
+.signin .subcolumn02 .signin-area {
+    margin: 0 0 0 40px;
+    padding: 1px 17px;
+}
+.signin .subcolumn02 .signin-area-bg {
+    float: left;
+    width: 296px;
+}
+.signin .subcolumn02 .signin-area-bg .padder {
+    margin: 8px 0 0;
+}
+.signin .subcolumn02 .signin-area-bg .padder .sign-input {
+    margin: 14px 0 0;
+}
+.signin .subcolumn02 .signin-area-bg .padder span.title {
+    background: url("/style/5/images/login_btn.png") no-repeat scroll 0 0 transparent;
+    float: left;
+    height: 20px;
+    margin-right: 5px;
+    text-indent: -999em;
+    width: 60px;
+}
+.signin .subcolumn02 .signin-area-bg .padder span.account {
+    background-position: 0 -36px;
+}
+.signin .subcolumn02 .signin-area-bg .padder span.password {
+    background-position: -60px -36px;
+}
+.signin .subcolumn02 .signin-area-bg .padder span.code {
+    background-position: -120px -36px;
+}
+.signin .subcolumn02 .signin-area-bg .padder span.input {
+    display: block;
+}
+.signin .subcolumn02 .signin-area-bg .padder span.input a {
+    color: #3472A3;
+    margin-left: 7px;
+    text-decoration: underline;
+}
+.signin .subcolumn02 .signin-area-bg .padder span.expand {
+    -moz-user-select: none;
+    padding-left: 5.9em;
+    width: 200px;
+}
+:lang(en) .signin .subcolumn02 .signin-area-bg .padder span.expand {
+    margin-left: -7px;
+}
+.signin .subcolumn02 .signin-area-bg .padder .input01 {
+    border: 1px solid #CCCCCC;
+    border-radius: 10px 10px 10px 10px;
+    color: #868686;
+    font-size: 16px;
+    outline: medium none;
+    padding: 2px;
+    width: 170px;
+}
+.signin .subcolumn02 .signin-area-bg .padder .validate {
+    color: #808080;
+    margin: 0;
+}
+.valcode .pic {
+    padding: 5px 0 0 68px;
+}
+.valcode .pic img {
+    height: 53px;
+    width: 130px;
+}
+.signin .subcolumn03 {
+    clear: both;
+}
+.strong-login .signin .subcolumn03 {
+    margin: 10px 0;
+}
+.signin .subcolumn03 .left {
+    float: left;
+}
+.signin .subcolumn03 .middle {
+    float: left;
+}
+.signin .subcolumn03 .middle .middle-padder {
+    float: left;
+    padding: 15px 0 0 55px;
+}
+.signin .subcolumn03 .middle .signin-btn {
+    background: url("/style/5/images/login_btn.png") no-repeat scroll -111px 0 transparent;
+    border: 0 none;
+    color: #0C4E7C;
+    cursor: pointer;
+    height: 36px;
+    line-height: 20px;
+    margin-left: 14px;
+    text-align: center;
+    width: 111px;
+}
+.signin .subcolumn03 .middle .signin2 {
+    float: left;
+    margin-left: 0;
+}
+.signin .subcolumn03 .middle .signup-btn {
+    background: url("/style/5/images/login_btn.png") no-repeat scroll 0 0 transparent;
+    border: 0 none;
+    color: #0C4E7C;
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 36px;
+    line-height: 20px;
+    outline: medium none;
+    text-align: center;
+    width: 111px;
+}
+.signin .subcolumn03 .right {
+    float: left;
+}
+.signin.yui-panel, .signin.yui-panel .hd, .signin.yui-panel .bd, .signin.yui-panel .ft {
+    background: none repeat scroll 0 0 transparent;
+    border: medium none;
+    margin: 0;
+    padding: 0;
+}
+.signin.yui-panel .hd {
+    font-weight: normal;
+}
+.signin-area-bg .expand {
+    display: block;
+    margin-left: 55px;
+    width: 16em;
+}
+.middle-padder {
+    width: 280px;
+}
+.middle-padder span {
+    float: left;
+}
+.valcode {
+    padding: 2px 0 0;
+}
+.valcode a {
+    color: #3472A3;
+    text-decoration: underline;
+}
+.valcode .expand {
+    float: left;
+    padding: 10px 0;
+}
+.bottom-padder {
+    clear: both;
+    padding: 6px 0;
+    text-align: center;
+    width: 356px;
+}
+.bottom-padder a {
+    color: #3472A3;
+    margin: 10px;
+    text-decoration: underline;
+}
+.verify_text {
+    padding: 3px 0 0 68px;
+}
+.err_m {
+    color: #FF0000;
+    display: none;
+}
+.signin-extend {
+    margin: 8px 0 0 58px;
+}
+.webqq-checkbox {
+    float: left;
+    font-size: 12px;
+    line-height: 2;
+    margin-right: 20px;
+}
+.webqq-checkbox span {
+    background: url("/style/5/images/ptlogin.gif") no-repeat scroll -40px -16px transparent;
+    cursor: pointer;
+    float: left;
+    height: 20px;
+    width: 20px;
+}
+.webqq-checkbox .checked {
+    background-position: -60px -16px;
+}
+.login-state-trigger {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 16px;
+    margin: 4px 0 0;
+    overflow: hidden;
+    width: 120px;
+}
+.login-state-trigger2 {
+    margin: 10px 0 0 20px;
+}
+.login-state-down {
+    background: url("/style/5/images/ptlogin.gif") no-repeat scroll 0 -22px transparent;
+    float: left;
+    height: 6px;
+    margin-top: 5px;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 7px;
+}
+.login-state-show {
+    float: left;
+    height: 14px;
+    margin: 1px 4px 0 0;
+    overflow: hidden;
+    text-indent: -999em;
+    width: 14px;
+}
+.login-state-txt {
+    float: left;
+    margin-left: 5px;
+}
+.login-state .callme {
+    background: url("/style/5/images/ptlogin.png") no-repeat scroll -72px 0 transparent;
+}
+.login-state .online {
+    background: url("/style/5/images/ptlogin.png") no-repeat scroll 0 0 transparent;
+}
+.login-state .away {
+    background: url("/style/5/images/ptlogin.png") no-repeat scroll -18px 0 transparent;
+}
+.login-state .busy {
+    background: url("/style/5/images/ptlogin.png") no-repeat scroll -36px 0 transparent;
+}
+.login-state .silent {
+    background: url("/style/5/images/ptlogin.png") no-repeat scroll -108px 0 transparent;
+}
+.login-state .hidden {
+    background: url("/style/5/images/ptlogin.png") no-repeat scroll -54px 0 transparent;
+}
+.statePanel {
+    background: none repeat scroll 0 0 white;
+    border-color: #CCCCCC #6A6A6A #666666 #CDCDCD;
+    border-style: solid;
+    border-width: 1px;
+    display: none;
+    font-size: 12px;
+    height: 133px;
+    line-height: 1.5;
+    margin: 0;
+    overflow: hidden;
+    padding: 0;
+    position: absolute;
+    right: 57px;
+    top: 20px;
+    width: 100px;
+    z-index: 10;
+}
+.statePanel .statePanel_li {
+    cursor: pointer;
+    display: block;
+    float: left;
+    height: 16px;
+    line-height: 16px;
+    margin: 0;
+    overflow: hidden;
+    padding: 3px 0;
+    width: 100px;
+}
+.stateSelect_icon {
+    float: left;
+    height: 14px;
+    margin: 2px 0 0 5px;
+    overflow: hidden;
+    width: 14px;
+}
+.stateSelect_text {
+    margin: 0 0 0 22px;
+}
+.main {
+    background-color: #FFFFFF;
+}

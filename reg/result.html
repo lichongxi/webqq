@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>欢迎来到webqq</title>
+<link type="text/css" href="http://id2.idqqimg.com/zc/chs/css/10033/index.css" rel="stylesheet">
+<link type="text/css" href="http://id2.idqqimg.com/zc/chs/css/10033/ok.css" rel="stylesheet">
+<link type="text/css" href="http://id2.idqqimg.com/zc/chs/css/10033/g.css" rel="stylesheet">
+<script type="text/javascript" src="/skin/js/jquery.min.js"></script>
+<script type="text/javascript" src="/skin/js/jquery.cookie.js"></script>
+</head>
+<body>
+
+<div class="bg">
+    <div class="container">
+        <div class="header"> <a href="index.html" class="logo" target="_self" title="QQ注册"></a> <a onclick="feedBack(716);" class="feedback" target="_blank" title="">意见反馈</a> </div>
+        <div class="content">
+            <div class="left"> 
+                <a id="nav_1" class="nav_box cur" href="javascript:goToReg(0);" > <span class="dt nav_1">普通帐号</span> <span class="dd">由数字组成，经典通行帐号</span> </a>
+            </div>
+            <div class="right">
+                <div class="phone"></div>
+                <div>
+                <!-- begin -->
+					<div class="main">
+                        <div class="main_inner" style = "display:none;">
+                            <div class="reg_msg msyh">
+                                <p><span>申请成功</span></p>
+                                <p id="rember_uin" ><span>您获得号码：</span><span id="newUin" class="red_text"></span></p>
+                                <div class="login_wrap">
+                                    <div id="loginList" class="login_bg">
+                                        <span id="login_btn" class="login_btn msyh"><a tabindex="3" title="登录QQ" id="loginToQQ" target="_blank" href="/index.php">登录</a></span><a title="更多登录选项" tabindex="4" id="loginArea" href="javascript:void(0)" class="login_area"></a>
+                                        <div style="display:none" id="loginSelect" class="login_select">
+                                            <ul id="loginTo">
+                                            
+											</ul>
+                                        </div>
+                                    </div>
+                                </div>
+								<div class="clear"></div>
+                            </div>
+                        </div>
+					</div>
+                <!-- end -->
+                </div>
+            </div>
+            <div class="clear"></div>
+        </div>
+    </div>
+</div>
+<div class="footer">
+Copyright
+<span>&copy;</span>
+1998-2012 Tencent All Rights Reserved 腾讯公司 版权所有
+</div>
+<script type="text/javascript" src="/skin/js/common.js"></script>
+<script type="text/javascript">
+var qq_num = $.cookie('qq_num');
+if( qq_num ){
+	$('.main_inner').show();
+	$('#newUin').html(qq_num);
+}
+</script>
+</body>
+</html>
