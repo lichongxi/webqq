@@ -87,5 +87,15 @@ class friends extends member {
 			return 1;
 		}
 	}
+	
+	public function GetFriends($userId){
+		$userId = intval(trim($userId));
+		$sql = $this->query("select * from `friends` where userid = $userId");
+		if($sql){
+			while ($friend[] = $this->fetch($sql)){}
+		}
+		return $friend;
+	}
 }
+
 

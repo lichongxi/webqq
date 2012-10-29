@@ -20,5 +20,8 @@ elseif ( $_POST['action'] == 'addFriend'){
 	if(!$result) exit('-99');
 	$result = $web->AddFriendApply( $_SESSION['userid'], $_POST['friendId']);
 	echo $result;
+}elseif ( $_POST['action'] == 'getFriends'){
+	$result = $web->GetFriends($_POST['userId']);
+	echo json_encode($result);
 }
 $web->db_close($link);

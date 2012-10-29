@@ -81,9 +81,17 @@ class member extends datebase {
 			return false;
 		}
 	}
-	
-	public function GetUseInfo(){
-		
+
+/**
+ * 获得用户自身信息
+ * @param unknown_type $userId
+ */
+	public function GetMyInfo($userId){
+		$userId = intval(trim($userId));
+		$userInfo = array('username','userid');
+		$userInfo = '`'.implode('`,`', $userInfo).'`';
+		$sql = $this->fetch1("select $userInfo from `user` where userid = $userId");
+		return $sql;
 	}
 }
 

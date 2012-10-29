@@ -188,7 +188,7 @@ session_start();
 <!-- main -->
 
 <!-- find friend -->
-<div id="appWindow_4" class="window window_current" style="width: 562px; height: 439px; left: 302px; top: 40px; display: block; visibility: visible; z-index: 32;">
+<div id="appWindow_4" class="window window_current" style="width: 562px; height: 439px; left: 302px; top: 40px; display: none; visibility: visible; z-index: 32;">
 	<div class="window_outer eqq_window window_has_controlArea" id="window_outer_4" style="padding: 10px; height: 417px; z-index: 27;">
 		<div class="window_inner" id="window_inner_4" style="z-index: 32;">
 			<div id="window_bg_container_4" class="window_bg_container">

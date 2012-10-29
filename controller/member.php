@@ -27,5 +27,10 @@ elseif ( $_POST['action'] == 'login'){
 		setcookie('loginid',$result[0],0,'/');
 //		setcookie('islogin',$result[1],0,'/');
 	}
+}elseif ( $_POST['action'] == 'getMyInfo'){
+	$result = $web->IsLogin($_SESSION['userid'], $_SESSION['islogin']);
+	if(!$result) exit('-99');
+	$result = $web->GetMyInfo($_POST['userId']);
+	echo json_encode($result);
 }
 $web->db_close($link);
